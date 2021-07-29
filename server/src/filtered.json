@@ -1,0 +1,1301 @@
+[
+  {
+    "name": "Handmade Wooden Mouse",
+    "slug": "amet-rem-tempora",
+    "description": "Libero omnis aut odio quia est. Reprehenderit sed quam ut est eum ullam facere et. Dolorem et voluptatem molestiae vero et. Minus vero sed et quia. Doloribus quisquam cum corporis molestiae.",
+    "price": "223.00",
+    "guest": 2,
+    "contact": "9800000000",
+    "facilities": [
+      { "guestRoom": 8 },
+      { "extraBed": 6 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-3_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Awesome Cotton Table",
+    "slug": "dolore-rerum-voluptates",
+    "description": "Sint aliquam voluptates nam. Exercitationem at ipsam. Ducimus natus ipsa nulla dolores aliquid. Occaecati minus dolores suscipit iste voluptatibus numquam qui tempore.",
+    "status": "publish",
+    "price": "768.00",
+    "contact": "688.399.4392",
+    "facilities": [
+      { "guestRoom": 2 },
+      { "extraBed": 8 },
+      { "wifi": false },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": true },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-7.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-7_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-8_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-10_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-9_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Incredible Granite Chicken",
+    "slug": "nulla-ullam-officia",
+    "description": "Totam voluptatum iusto autem est sapiente eius. Autem qui incidunt beatae harum iusto dolorem numquam voluptates qui. Repellendus aut deserunt ipsum ad excepturi velit tempore ut reiciendis. Ducimus officia animi voluptatem sequi. Ut enim sequi delectus adipisci nemo praesentium illo. Rerum ut ab eum.",
+    "status": "draft",
+    "price": "191.00",
+    "contact": "890-827-6932",
+    "facilities": [
+      { "guestRoom": 2 },
+      { "extraBed": 2 },
+      { "wifi": false },
+      { "parking": false },
+      { "pool": false },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-13.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-13_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-14_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-15_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-16_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Unbranded Frozen Gloves",
+    "slug": "minus-dolores-quia",
+    "description": "Voluptates commodi nihil voluptatem ea. Id aut ea aliquam perspiciatis quo voluptatum sapiente quas. Esse nobis dolores.",
+    "status": "publish",
+    "price": "662.00",
+    "contact": "(301) 450-0248 x4505",
+    "facilities": [
+      { "guestRoom": 3 },
+      { "extraBed": 4 },
+      { "wifi": false },
+      { "parking": false },
+      { "pool": false },
+      { "airCondition": true },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-19.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-19_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-20_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Rustic Cotton Chicken",
+    "slug": "repellat-excepturi-nobis",
+    "description": "Quam cum nihil a quod nam assumenda repellat qui. Suscipit iste facilis aut dolore voluptatum iure. Neque eius numquam rerum occaecati. Totam ratione animi voluptas ex. Laborum modi eius neque inventore rerum.",
+    "status": "draft",
+    "price": "888.00",
+    "contact": "055-387-6388",
+    "facilities": [
+      { "guestRoom": 8 },
+      { "extraBed": 3 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-5.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-5_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-6_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-7_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-8_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Small Metal Ball",
+    "slug": "earum-provident-adipisci",
+    "description": "Dolores tempora distinctio. Excepturi reprehenderit blanditiis quibusdam reprehenderit non quo atque sunt. Sint sed sit ut et doloremque amet reprehenderit.",
+    "status": "draft",
+    "price": "316.00",
+    "contact": "(352) 594-5474 x93019",
+    "facilities": [
+      { "guestRoom": 7 },
+      { "extraBed": 1 },
+      { "wifi": false },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-11.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-11_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-12_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-13_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-14_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Small Soft Ball",
+    "slug": "numquam-distinctio-eius",
+    "description": "Id ea quasi magnam aspernatur omnis. Inventore possimus aut autem iure ut eum. Quia fuga hic similique voluptas officiis esse. Veritatis voluptatibus qui ut. Voluptatem enim sit assumenda rerum. Ad ut enim necessitatibus totam quia cumque asperiores laborum.",
+    "status": "publish",
+    "price": "245.00",
+    "contact": "1-619-861-6069 x3877",
+    "facilities": [
+      { "guestRoom": 7 },
+      { "extraBed": 4 },
+      { "wifi": true },
+      { "parking": false },
+      { "pool": false },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-17.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-17_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-19_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-20_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Incredible Wooden Ball",
+    "slug": "nobis-et-et",
+    "description": "Labore voluptatem laborum quod est. Nihil voluptates et praesentium quis. Culpa est ut voluptatem molestiae sint non veritatis suscipit ab. Quia accusamus laudantium aut eaque minus architecto voluptatem vero maxime. Libero minima aperiam provident rerum autem voluptatem veniam est quos.",
+    "status": "draft",
+    "price": "662.00",
+    "contact": "(484) 092-0621 x11827",
+    "facilities": [
+      { "guestRoom": 3 },
+      { "extraBed": 6 },
+      { "wifi": false },
+      { "parking": false },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-3.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-3_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-5_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-6_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Handcrafted Wooden Towels",
+    "slug": "eum-voluptas-tempore",
+    "description": "Natus provident voluptatum quibusdam minima non officiis beatae. Nobis est architecto sequi laboriosam id maiores harum et. Quo dolores consequuntur nostrum ullam sapiente asperiores itaque dolores. Et nobis voluptatem dolores corrupti accusantium. Magni voluptas quis inventore.",
+    "status": "draft",
+    "price": "170.00",
+    "contact": "150.663.2821",
+    "facilities": [
+      { "guestRoom": 6 },
+      { "extraBed": 6 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": false },
+      { "airCondition": true },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-9.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-9_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-10_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-11_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-12_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Generic Metal Shoes",
+    "slug": "eligendi-ex-ut",
+    "description": "Adipisci illum fugiat. Tempore est fugiat. Facere veritatis assumenda rem dolor.",
+    "status": "publish",
+    "price": "195.00",
+    "contact": "492.701.7429 x567",
+    "facilities": [
+      { "guestRoom": 6 },
+      { "extraBed": 8 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": false },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-15.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-15_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-16_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-17_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Small Metal Shirt",
+    "slug": "ipsum-libero-in",
+    "description": "Nisi expedita iste aliquid natus nulla eos. Eos officiis nihil. Error facilis sit sed reiciendis voluptatibus dolorem amet. Nobis quia ea. Ipsam enim blanditiis qui.",
+    "status": "draft",
+    "price": "410.00",
+    "contact": "1-062-144-6412 x477",
+    "facilities": [
+      { "guestRoom": 1 },
+      { "extraBed": 6 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": false },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-3_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Unbranded Concrete Towels",
+    "slug": "mollitia-laudantium-magnam",
+    "description": "Optio sequi corrupti ullam molestias. Sequi ipsam autem et aut voluptas velit cupiditate deleniti maiores. Quo exercitationem enim harum tenetur impedit omnis velit est. Quo magnam molestias enim sit sint omnis est. Vel harum qui mollitia optio nihil cumque molestias voluptas. Nihil dolorum similique ratione nihil velit.",
+    "status": "publish",
+    "price": "377.00",
+    "contact": "(324) 731-4990 x405",
+    "facilities": [
+      { "guestRoom": 1 },
+      { "extraBed": 2 },
+      { "wifi": true },
+      { "parking": false },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-7.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-7_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-8_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-9_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-10_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Incredible Cotton Hat",
+    "slug": "sunt-perspiciatis-autem",
+    "description": "Veritatis ea sed nulla voluptas qui itaque adipisci. Iusto laboriosam voluptatem molestiae quis. Dolorem reiciendis est.",
+    "status": "publish",
+    "price": "30.00",
+    "contact": "1-086-577-2962 x19809",
+    "facilities": [
+      { "guestRoom": 4 },
+      { "extraBed": 2 },
+      { "wifi": false },
+      { "parking": false },
+      { "pool": false },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-13.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-13_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-14_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-15_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-16_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Licensed Wooden Bike",
+    "slug": "cupiditate-aut-ullam",
+    "description": "Quae deleniti reiciendis illo. Voluptatum debitis sed vel cupiditate qui quibusdam id sapiente. Architecto ad magnam sunt delectus in necessitatibus alias quidem.",
+    "status": "draft",
+    "price": "390.00",
+    "contact": "204.697.6994",
+    "facilities": [
+      { "guestRoom": 8 },
+      { "extraBed": 2 },
+      { "wifi": false },
+      { "parking": false },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-19.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-19_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-20_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Incredible Plastic Tuna",
+    "slug": "laboriosam-animi-fuga",
+    "description": "Dolor eligendi veritatis aspernatur. Voluptas nihil voluptas. Cupiditate neque alias. Tempore ipsum aut autem in qui iure soluta. Molestiae et placeat similique voluptates quia quia. Sed perspiciatis praesentium tempore consectetur qui.",
+    "status": "draft",
+    "price": "312.00",
+    "contact": "1-860-981-4355",
+    "facilities": [
+      { "guestRoom": 6 },
+      { "extraBed": 7 },
+      { "wifi": true },
+      { "parking": false },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-5.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-5_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-6_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-7_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-8_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Generic Soft Chicken",
+    "slug": "est-et-aperiam",
+    "description": "Fugit nostrum ea dolorum odit eius voluptas sed facere et. Deleniti temporibus neque quod deleniti veritatis neque id. Quae ipsum quidem iste consequatur sunt veniam reiciendis. Reprehenderit cum est veniam velit et. Quasi sint ipsum adipisci nesciunt et exercitationem nihil.",
+    "status": "publish",
+    "price": "438.00",
+    "contact": "545.175.4776",
+    "facilities": [
+      { "guestRoom": 4 },
+      { "extraBed": 3 },
+      { "wifi": true },
+      { "parking": false },
+      { "pool": false },
+      { "airCondition": true },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-11.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-11_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-12_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-13_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-14_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Handcrafted Granite Pants",
+    "slug": "earum-ratione-totam",
+    "description": "Nihil ut deserunt omnis reiciendis sequi totam voluptates aperiam doloribus. Repellendus harum ut qui ducimus qui qui quasi et. Odit reiciendis dolorem repellendus qui modi tenetur velit. Qui ut dicta debitis adipisci ullam veniam unde magni sint. At qui magni doloremque enim.",
+    "status": "draft",
+    "price": "366.00",
+    "contact": "(991) 901-7574 x363",
+    "facilities": [
+      { "guestRoom": 7 },
+      { "extraBed": 8 },
+      { "wifi": true },
+      { "parking": false },
+      { "pool": false },
+      { "airCondition": true },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-17_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-20_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-19_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Small Granite Mouse",
+    "slug": "qui-quis-inventore",
+    "description": "Delectus quia est qui consectetur. Animi delectus facere saepe. Iste voluptas id saepe minus. Et non vero nesciunt nihil. Consequuntur neque dolor atque ad.",
+    "status": "publish",
+    "price": "753.00",
+    "contact": "085.885.4390",
+    "facilities": [
+      { "guestRoom": 1 },
+      { "extraBed": 7 },
+      { "wifi": true },
+      { "parking": false },
+      { "pool": false },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-3_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-6_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Unbranded Soft Chips",
+    "slug": "aspernatur-perferendis-illo",
+    "description": "Suscipit totam ut odit quas tempore. Voluptatibus enim quas voluptatem esse iste animi illo. Sit saepe temporibus inventore soluta eos vel dolores voluptatem voluptas. Saepe quaerat qui suscipit non excepturi ut. Alias qui impedit.",
+    "status": "draft",
+    "price": "204.00",
+    "contact": "1-681-944-4017",
+    "facilities": [
+      { "guestRoom": 1 },
+      { "extraBed": 8 },
+      { "wifi": false },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-9.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-9_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-10_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-11_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-12_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Handcrafted Soft Bike",
+    "slug": "animi-voluptas-quibusdam",
+    "description": "Non aliquid laboriosam incidunt earum cupiditate et. Est tempora non at ipsam illo. Velit necessitatibus aliquam at et exercitationem minus veritatis.",
+    "status": "publish",
+    "price": "648.00",
+    "contact": "791-143-5502",
+    "facilities": [
+      { "guestRoom": 4 },
+      { "extraBed": 2 },
+      { "wifi": false },
+      { "parking": false },
+      { "pool": false },
+      { "airCondition": true },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-15.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-15_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-17_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-16_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Sleek Metal Ball",
+    "slug": "ratione-rerum-labore",
+    "description": "Illo cupiditate temporibus modi dolores voluptatem. In blanditiis voluptas quia. Odit animi totam est autem est. Velit voluptatem aperiam incidunt dolores. Quia dolore minus et nesciunt ut. Dicta voluptas laudantium et placeat maiores sint natus omnis.",
+    "status": "publish",
+    "price": "648.00",
+    "contact": "192.393.3977 x77767",
+    "facilities": [
+      { "guestRoom": 5 },
+      { "extraBed": 4 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-3_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Handmade Steel Shoes",
+    "slug": "et-molestiae-incidunt",
+    "description": "Ab est qui nobis accusamus qui cum enim. Sapiente nulla et nostrum autem molestiae. Maiores sed vitae aliquid id debitis nam ut incidunt. Et et itaque reprehenderit.",
+    "status": "draft",
+    "price": "985.00",
+    "contact": "1-134-303-1680",
+    "facilities": [
+      { "guestRoom": 4 },
+      { "extraBed": 8 },
+      { "wifi": false },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-9_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-7_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-8_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Handcrafted Plastic Car",
+    "slug": "vero-placeat-natus",
+    "description": "Voluptas quia necessitatibus non. Unde qui nesciunt debitis. Sapiente sed ducimus minima. Laboriosam fugit voluptates est voluptatem saepe eos alias. Amet debitis molestiae ipsum consequatur consequatur.",
+    "status": "publish",
+    "price": "487.00",
+    "contact": "(084) 342-1730",
+    "facilities": [
+      { "guestRoom": 2 },
+      { "extraBed": 6 },
+      { "wifi": true },
+      { "parking": false },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-12.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-12_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-13_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-14_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-15_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Sleek Rubber Bike",
+    "slug": "sequi-eveniet-molestiae",
+    "description": "Itaque non omnis amet sunt enim. Ut repellat aperiam atque veniam vel eligendi quod. Rerum praesentium praesentium omnis. Laboriosam ut ut consequatur doloribus tenetur nemo temporibus. Aliquam ratione magni accusamus doloremque et aut consequuntur molestias. Sit ad qui iure voluptas.",
+    "status": "draft",
+    "price": "146.00",
+    "contact": "1-901-525-8678 x342",
+    "facilities": [
+      { "guestRoom": 5 },
+      { "extraBed": 3 },
+      { "wifi": false },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": true },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-19_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-20_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Awesome Cotton Towels",
+    "slug": "libero-ut-rerum",
+    "description": "Temporibus omnis et non rerum voluptatem laborum alias. Placeat quis natus laborum nulla quas molestias porro ut rerum. Recusandae molestias quo.",
+    "status": "draft",
+    "price": "114.00",
+    "contact": "(136) 240-7715 x117",
+    "facilities": [
+      { "guestRoom": 7 },
+      { "extraBed": 8 },
+      { "wifi": false },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-5_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-6_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-7_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Practical Fresh Hat",
+    "slug": "praesentium-qui-quisquam",
+    "description": "Accusamus quo nihil quidem molestias. Voluptatem ipsum quia consequatur quam perferendis dolor nemo. Molestias quis eligendi et animi autem ipsum natus. Aut repudiandae enim dolor distinctio veniam et. Est itaque veritatis voluptatem voluptate facere officia.",
+    "status": "publish",
+    "price": "180.00",
+    "contact": "1-087-215-2532",
+    "facilities": [
+      { "guestRoom": 2 },
+      { "extraBed": 5 },
+      { "wifi": false },
+      { "parking": false },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-10.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-10_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-11_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-12_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-13_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Practical Granite Table",
+    "slug": "aliquid-tempora-quia",
+    "description": "Vel ducimus expedita sunt minus et blanditiis. Incidunt ipsum nostrum nihil incidunt sed neque adipisci. Labore amet laudantium corrupti sunt. Ut nostrum maxime ut ut. Est aspernatur assumenda quia similique temporibus fugiat et maiores.",
+    "status": "publish",
+    "price": "137.00",
+    "contact": "(214) 001-8915 x41129",
+    "facilities": [
+      { "guestRoom": 2 },
+      { "extraBed": 1 },
+      { "wifi": false },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-16.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-16_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-17_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-19_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Handcrafted Steel Soap",
+    "slug": "excepturi-molestiae-laborum",
+    "description": "Ullam non ex quaerat ratione aut esse sint ut. Repudiandae nostrum dignissimos magni repellendus molestiae beatae ea. Tempora omnis qui labore quis non ut quo vel dicta. Quia vitae itaque eligendi est rem enim.",
+    "status": "draft",
+    "price": "122.00",
+    "contact": "(113) 265-9433",
+    "facilities": [
+      { "guestRoom": 3 },
+      { "extraBed": 8 },
+      { "wifi": true },
+      { "parking": false },
+      { "pool": false },
+      { "airCondition": true },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-16_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-15_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-14_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Gorgeous Concrete Hat",
+    "slug": "illo-ducimus-impedit",
+    "description": "Qui libero iusto eos. Omnis sint doloremque voluptatum ut nihil dolorem ratione. Numquam sit qui est velit. Sed voluptatem aspernatur quia non. Consequatur provident sed soluta nesciunt. Et aut aliquam eligendi quo facere.",
+    "status": "publish",
+    "price": "704.00",
+    "contact": "370-803-2710",
+    "facilities": [
+      { "guestRoom": 4 },
+      { "extraBed": 5 },
+      { "wifi": false },
+      { "parking": false },
+      { "pool": false },
+      { "airCondition": true },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-11.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-11_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-10_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-9_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-8_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Handcrafted Steel Shoes",
+    "slug": "omnis-voluptate-commodi",
+    "description": "Commodi nobis beatae sunt in. Neque qui iure et ratione et blanditiis commodi veritatis. Maxime dignissimos ipsam nemo nihil necessitatibus nihil.",
+    "status": "draft",
+    "price": "450.00",
+    "contact": "1-981-151-6140 x486",
+    "facilities": [
+      { "guestRoom": 6 },
+      { "extraBed": 1 },
+      { "wifi": true },
+      { "parking": false },
+      { "pool": false },
+      { "airCondition": true },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-5.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-5_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-3_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-3_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Fantastic Rubber Shoes",
+    "slug": "repellendus-ducimus-quia",
+    "description": "At animi cumque voluptatem consequatur omnis blanditiis. Enim ab voluptas rem. Earum libero id iure molestiae minima tempora qui non quis.",
+    "status": "draft",
+    "price": "228.00",
+    "contact": "1-408-220-2037",
+    "facilities": [
+      { "guestRoom": 4 },
+      { "extraBed": 6 },
+      { "wifi": false },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-20.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-20_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-19_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-17_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Awesome Metal Pizza",
+    "slug": "est-error-quaerat",
+    "description": "Dolores distinctio voluptatibus libero est excepturi adipisci debitis vel est. Ipsam dolor omnis qui nihil odio occaecati. Aut iure temporibus delectus praesentium doloribus consequuntur. Eaque saepe labore blanditiis. Perspiciatis dolores beatae quis nulla quibusdam temporibus libero. Cupiditate nobis adipisci beatae voluptas dolores voluptatem id esse.",
+    "status": "draft",
+    "price": "630.00",
+    "contact": "(387) 420-5208 x3721",
+    "facilities": [
+      { "guestRoom": 1 },
+      { "extraBed": 5 },
+      { "wifi": false },
+      { "parking": false },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-14.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-14_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-13_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-12_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-11_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Small Steel Computer",
+    "slug": "velit-voluptate-eum",
+    "description": "Nihil tenetur reprehenderit modi molestiae ipsum. Est quaerat aspernatur fuga nihil et quam molestiae. Asperiores possimus rerum quidem.",
+    "status": "draft",
+    "price": "983.00",
+    "contact": "892.979.0945 x548",
+    "facilities": [
+      { "guestRoom": 3 },
+      { "extraBed": 8 },
+      { "wifi": false },
+      { "parking": true },
+      { "pool": false },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-8_thumb.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-8_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-7_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-6_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-5_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Unbranded Fresh Fish",
+    "slug": "sapiente-non-voluptatem",
+    "description": "Eos distinctio necessitatibus aut et modi non. Nobis odio non dicta. Culpa porro nulla doloremque. Veritatis enim laboriosam sunt labore. Maxime dolore hic expedita unde.",
+    "status": "draft",
+    "price": "986.00",
+    "contact": "093.299.4995",
+    "facilities": [
+      { "guestRoom": 4 },
+      { "extraBed": 6 },
+      { "wifi": false },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": true },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-20_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-19_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Handmade Steel Bike",
+    "slug": "aut-voluptatibus-magni",
+    "description": "Ipsam excepturi incidunt cumque doloremque sit sed sit et explicabo. Aut debitis adipisci repellat sunt esse impedit. Dignissimos ipsum saepe ipsa quibusdam alias reprehenderit possimus autem. Voluptatem assumenda iusto iusto a dolore aspernatur ut omnis dolorem. Eos enim ipsum dicta ducimus sint ut.",
+    "status": "draft",
+    "price": "50.00",
+    "contact": "692.234.0772 x29045",
+    "facilities": [
+      { "guestRoom": 8 },
+      { "extraBed": 7 },
+      { "wifi": true },
+      { "parking": false },
+      { "pool": true },
+      { "airCondition": true },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-16.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-16_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-15_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-14_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-13_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Gorgeous Wooden Tuna",
+    "slug": "ut-perspiciatis-laborum",
+    "description": "Voluptatem neque repudiandae sint dicta. Iure sunt sint similique odio cumque consectetur. Id ullam qui laborum sit dignissimos aliquam qui deserunt. Est ab aperiam laboriosam illum veniam. Reprehenderit laboriosam quas id id assumenda incidunt.",
+    "status": "publish",
+    "price": "980.00",
+    "contact": "969.353.9860",
+    "facilities": [
+      { "guestRoom": 3 },
+      { "extraBed": 4 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": false },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-10.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-10_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-9_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-8_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-7_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Tasty Steel Hat",
+    "slug": "ex-pariatur-nemo",
+    "description": "Cum temporibus cupiditate et distinctio adipisci deserunt. Omnis maxime dignissimos minima cumque reprehenderit quis suscipit veritatis. Ut velit molestiae maxime dolor.",
+    "status": "publish",
+    "price": "619.00",
+    "contact": "(458) 402-0874 x4752",
+    "facilities": [
+      { "guestRoom": 7 },
+      { "extraBed": 2 },
+      { "wifi": false },
+      { "parking": true },
+      { "pool": false },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-3_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Ergonomic Metal Bacon",
+    "slug": "at-provident-ducimus",
+    "description": "Error quod ullam. Eius nihil est facere amet. Itaque ducimus neque dolor et voluptatem sit quibusdam.",
+    "status": "publish",
+    "price": "906.00",
+    "contact": "(386) 123-8145 x1045",
+    "facilities": [
+      { "guestRoom": 6 },
+      { "extraBed": 3 },
+      { "wifi": true },
+      { "parking": false },
+      { "pool": true },
+      { "airCondition": true },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-17_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-16_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-15_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Refined Concrete Soap",
+    "slug": "itaque-aut-dolorem",
+    "description": "Tempore rerum iusto dignissimos dolores eligendi. Consequatur quod porro. Tempora vel ut dolorem sit molestias quos. Quia quo quia ut sapiente quidem consectetur quae.",
+    "status": "publish",
+    "price": "888.00",
+    "contact": "485-145-3227 x26694",
+    "facilities": [
+      { "guestRoom": 1 },
+      { "extraBed": 2 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": false },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-12.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-12_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-11_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-9_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-10_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Refined Granite Pants",
+    "slug": "qui-nostrum-nostrum",
+    "description": "Eum est occaecati voluptas. Et ab explicabo. Modi earum commodi veniam nam aut est assumenda maiores vitae.",
+    "status": "draft",
+    "price": "22.00",
+    "contact": "832-038-8977 x512",
+    "facilities": [
+      { "guestRoom": 7 },
+      { "extraBed": 3 },
+      { "wifi": false },
+      { "parking": true },
+      { "pool": false },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-6.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-6_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-5_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-3_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Intelligent Rubber Chair",
+    "slug": "est-rerum-rerum",
+    "description": "Eius recusandae dolores aut vel esse commodi reprehenderit excepturi consequatur. Ut sequi alias quia. Sint in ut architecto officia quia qui ut. Iste non qui velit qui dolor dolor. Sapiente molestias non occaecati dolorum veritatis et. Itaque eum id voluptatum debitis dolores consequatur et.",
+    "status": "draft",
+    "price": "759.00",
+    "contact": "1-753-527-1692 x58416",
+    "facilities": [
+      { "guestRoom": 2 },
+      { "extraBed": 8 },
+      { "wifi": false },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": true },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-20.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-20_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-19_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-17_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Rustic Rubber Table",
+    "slug": "nesciunt-voluptatem-exercitationem",
+    "description": "Ea ut et quasi dolore. Iusto expedita aut provident earum. Cupiditate omnis vero quod et sunt voluptatem debitis at atque.",
+    "status": "draft",
+    "price": "786.00",
+    "contact": "1-853-792-7203 x8798",
+    "facilities": [
+      { "guestRoom": 5 },
+      { "extraBed": 2 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": false },
+      { "airCondition": true },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-14.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-14_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-13_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-12_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-11_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Practical Steel Computer",
+    "slug": "voluptas-repellendus-tempore",
+    "description": "At veritatis dolorem amet porro omnis adipisci quibusdam et. Eum voluptatem rerum. Iste non molestiae qui. Eligendi dolorum deserunt reprehenderit odio veritatis officia. Culpa totam assumenda voluptas rem dolorem nemo quos autem repellendus.",
+    "status": "draft",
+    "price": "540.00",
+    "contact": "(769) 042-0200 x675",
+    "facilities": [
+      { "guestRoom": 3 },
+      { "extraBed": 2 },
+      { "wifi": true },
+      { "parking": false },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-8.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-8_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-7_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-6_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-5_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Licensed Soft Chair",
+    "slug": "quis-odio-eos",
+    "description": "Unde et in omnis dolorum. Et quis nesciunt ipsa enim totam sint nesciunt. Accusamus ipsam sequi est sit mollitia et impedit illo.",
+    "status": "draft",
+    "price": "124.00",
+    "contact": "052-241-8912 x94334",
+    "facilities": [
+      { "guestRoom": 4 },
+      { "extraBed": 2 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": false },
+      { "airCondition": true },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-20_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-19_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Handmade Fresh Hat",
+    "slug": "illum-nihil-possimus",
+    "description": "Dolores molestiae voluptatem saepe quia facilis dolor. Quos modi sed. Sed labore modi et tempore velit recusandae. Consequatur consequatur dolorem.",
+    "status": "draft",
+    "price": "668.00",
+    "contact": "(316) 526-9578 x2216",
+    "facilities": [
+      { "guestRoom": 6 },
+      { "extraBed": 6 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-16.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-16_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-15_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-14_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-13_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Handcrafted Concrete Bacon",
+    "slug": "sed-velit-non",
+    "description": "Blanditiis aperiam eos aut amet quia explicabo totam porro maxime. Et sed debitis repellendus tempora veritatis. Atque sit itaque ut est labore inventore et eius ad. Omnis consequuntur doloremque repudiandae qui et delectus amet minima aperiam. Sed iusto porro cupiditate omnis laboriosam a pariatur. Id aut labore eum aut quaerat exercitationem.",
+    "status": "draft",
+    "price": "405.00",
+    "contact": "1-045-434-6213 x3625",
+    "facilities": [
+      { "guestRoom": 6 },
+      { "extraBed": 4 },
+      { "wifi": false },
+      { "parking": false },
+      { "pool": false },
+      { "airCondition": true },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-10.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-10_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-9_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-8_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-7_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Sleek Fresh Computer",
+    "slug": "quasi-voluptatem-voluptatem",
+    "description": "Harum minima dignissimos a porro adipisci magni. Doloribus incidunt id veniam perferendis explicabo ut nobis eos. Et quidem reiciendis est cum animi. Qui qui neque sapiente assumenda eum voluptas. Qui exercitationem officia ipsa quae vero sint tempore sed optio.",
+    "status": "draft",
+    "price": "117.00",
+    "contact": "(040) 889-5612 x005",
+    "facilities": [
+      { "guestRoom": 1 },
+      { "extraBed": 8 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": false }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-3_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-2_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-1_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Awesome Cotton Chicken",
+    "slug": "reiciendis-consequatur-dolore",
+    "description": "Eveniet impedit a temporibus eligendi consectetur maxime sed. Distinctio soluta saepe porro et. Eum ipsum ea alias ut cupiditate non placeat animi ut.",
+    "status": "draft",
+    "price": "253.00",
+    "contact": "1-403-000-9038 x910",
+    "facilities": [
+      { "guestRoom": 5 },
+      { "extraBed": 2 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": true },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-18_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-17_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-16_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-15_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Handmade Fresh Mouse",
+    "slug": "ipsam-delectus-praesentium",
+    "description": "Quod quia voluptatem maiores recusandae. Est veniam aut voluptate itaque et ex recusandae. Natus est est non culpa.",
+    "status": "publish",
+    "price": "834.00",
+    "contact": "1-501-245-2471 x63314",
+    "facilities": [
+      { "guestRoom": 1 },
+      { "extraBed": 5 },
+      { "wifi": true },
+      { "parking": true },
+      { "pool": false },
+      { "airCondition": false },
+      { "extraBedFacility": true }
+    ],
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-12.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-12_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-11_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-10_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-9_thumb.jpg"
+    ]
+  },
+  {
+    "name": "Practical Steel Bacon",
+    "slug": "non-cum-id",
+    "description": "Est ipsa iste temporibus. Enim et est perspiciatis. Fugit sit unde suscipit eum est rem ut dolor totam. Officia sit officiis ratione ipsum quis. Numquam distinctio ipsa. Quo excepturi eum sunt incidunt voluptas doloribus autem.",
+    "status": "draft",
+    "price": "559.00",
+    "contact": "1-755-332-9657 x8182",
+    "facilities": {
+      "guestRoom": 5,
+      "extraBed": 4,
+      "parking": false,
+      "pool": false,
+      "ac": false,
+      "wifi": false
+    },
+    "image": {
+      "url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-6.jpg",
+      "thumb_url": "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-6_thumb.jpg"
+    },
+    "gallery": [
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-5_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-4_thumb.jpg",
+      "http://s3.amazonaws.com/redqteam.com/tripfinder-images/hotel-3_thumb.jpg"
+    ]
+  }
+]
