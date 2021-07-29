@@ -26,6 +26,7 @@ export type ActionType = {
     | "VERIFIED_SUCESS"
     | "VERIFIED_ERROR"
     | "LOGOUT"
+    | "INITIALIZED"
     | "GET_TOKEN"
     | "SET_TOKEN";
   payload?: payload;

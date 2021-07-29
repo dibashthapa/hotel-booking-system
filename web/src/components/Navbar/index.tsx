@@ -8,7 +8,6 @@ import {
   REGISTRATION_PAGE,
   LISTING_POSTS_PAGE,
   HOME_PAGE,
-  PROFILE,
 } from "settings/constant";
 import { logoutUser, verifyUser } from "auth/actions";
 import { useEffect } from "react";
@@ -47,14 +46,10 @@ const Navbar = () => {
   const UnAuthorizedNav = () => (
     <>
       <ListItem>
-        <Button clickHandler={handlePushLogin}>Login</Button>
+        <Button onClick={handlePushLogin}>Login</Button>
       </ListItem>
       <ListItem>
-        <Button
-          clickHandler={handlePushRegister}
-          fill="outlined"
-          variant="primary"
-        >
+        <Button onClick={handlePushRegister} fill="outlined" variant="primary">
           Sign Up
         </Button>
       </ListItem>
@@ -63,9 +58,6 @@ const Navbar = () => {
 
   const menu = (
     <Menu>
-      <Menu.Item key="3" onClick={() => history.push(PROFILE)}>
-        Account Settings
-      </Menu.Item>
       <Menu.Item key="4" onClick={handleLogout}>
         Log Out
       </Menu.Item>

@@ -11,6 +11,7 @@ export interface FlexProps {
   margin?: React.CSSProperties["margin"];
   width?: React.CSSProperties["width"];
   height?: React.CSSProperties["height"];
+  basis?: React.CSSProperties["flexBasis"];
 }
 
 export const Flex = styled.div<FlexProps>(
@@ -23,6 +24,7 @@ export const Flex = styled.div<FlexProps>(
     margin,
     width,
     height,
+    basis = "auto",
   }) => css`
     margin: ${margin};
     display: flex;
@@ -32,6 +34,10 @@ export const Flex = styled.div<FlexProps>(
     align-items: ${align};
     height: ${height};
     flex-wrap: ${noWrap ? "no-wrap" : "wrap"};
+
+    & > * {
+      flex: 0 0 ${basis};
+    }
     & > *:not(:last-child) {
       ${direction === "column"
         ? css`

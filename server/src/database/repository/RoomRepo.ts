@@ -25,7 +25,7 @@ export default class RoomRepo {
   }
 
   public static findInfoById(id: Types.ObjectId): Promise<Room | null> {
-    return RoomModel.findOne({ _id: id }).lean<Room>().exec();
+    return RoomModel.findOne({ _id: id }).populate('hotel').lean<Room>().exec();
   }
 
   public static findRooms(): Promise<Room[]> {

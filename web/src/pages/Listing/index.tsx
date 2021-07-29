@@ -24,7 +24,7 @@ export const Listing = () => {
             hotel={page.name}
             price={page.price}
             gallery={page.gallery}
-            location="Kathmandu , Nepal"
+            location={page.hotel.location}
             key={page._id}
             id={page._id}
           />

@@ -80,7 +80,7 @@ export const Product: React.FC<ProductProps> = ({
         </div>
 
         <div className="meta-wrapper">
-          <div className="price">{price}</div>
+          <div className="price">{price}$ Per Night</div>
         </div>
         <TextLink to={`${LISTING_POSTS_PAGE}/id/${id}`}>
           <HiOutlineExternalLink />

@@ -25,8 +25,4 @@ export const ImageGallery = styled.div`
 `;
 
 export const MiddleContent = styled.div``;
-export const DescriptionContainer = styled.div`
-  margin-left: auto;
-  margin-right: auto;
-  max-width: ${(p) => p.theme.size.tablet};
-`;
+export const DescriptionContainer = styled.div``;

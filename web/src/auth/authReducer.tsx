@@ -2,6 +2,11 @@ import { State, ActionType } from "./authContext";
 
 export function reducer(state: State, action: ActionType): State {
   switch (action.type) {
+    case "INITIALIZED":
+      return {
+        ...state,
+        isLoading: false,
+      };
     case "LOGIN_REQUEST":
       return {
         ...state,

@@ -1,12 +1,8 @@
 import { useAuth } from "auth";
 import { LOGIN_PAGE } from "settings/constant";
-import { Route, Redirect } from "react-router-dom";
+import { Route, Redirect, RouteProps } from "react-router-dom";
 
-export const PrivateRoute: React.FC<{
-  component: React.FC;
-  path: string;
-  exact: boolean;
-}> = (props) => {
+export const PrivateRoute: React.FC<RouteProps> = (props) => {
   const { state } = useAuth();
 
   if (state.isLoading) {
@@ -27,7 +23,7 @@ export const PrivateRoute: React.FC<{
         to={{
           pathname: LOGIN_PAGE,
           state: {
-            prevLocation: props.path,
+            prevLocation: props.location,
           },
         }}
       />

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Moment } from "moment";
 import {
   ComponentWrapper,
   FormWrapper,
@@ -10,10 +11,39 @@ import { DatePicker, Input, Button, Text } from "@hotel-ui";
 import { ImLocation } from "react-icons/im";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { Popover } from "antd";
+import { useHistory } from "react-router-dom";
+import { LISTING_POSTS_PAGE } from "settings/constant";
 export const SearchForm = () => {
   const [room, setRoom] = useState(0);
   const [children, setChildren] = useState(0);
   const [adults, setAdults] = useState(0);
+  const [value, setValue] = useState("Kathmandu, Nepal");
+  const history = useHistory();
+
+  const searchHotels = () => {
+    const date = JSON.parse(localStorage.getItem("dates") as string);
+
+    if (room && value.length > 1 && children && adults && date) {
+      localStorage.setItem("guests", JSON.stringify({ children, adults }));
+      history.push({
+        pathname: LISTING_POSTS_PAGE,
+        search: `room=${room}&location=${value}`,
+        state: { room },
+      });
+    }
+  };
+  const onCalendarChange = (
+    _: [Moment | null, Moment | null] | null,
+    dateStr: [string, string]
+  ): void => {
+    localStorage.removeItem("dates");
+    const dates = { checkinDate: dateStr[0], checkOutDate: dateStr[1] };
+    localStorage.setItem("dates", JSON.stringify(dates));
+  };
+
+  const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setValue(e.target.value);
+  };
   const Content = () => {
     const increaseRoomCount = () => {
       setRoom(room + 1);
@@ -90,10 +120,12 @@ export const SearchForm = () => {
           placeholder="'Kathmandu, Nepal'"
           padding="0px 30px 0px 40px"
           borderHover="white"
+          onChange={onChange}
+          value={value}
         />
       </ComponentWrapper>
       <ComponentWrapper>
-        <DatePicker />
+        <DatePicker onChange={onCalendarChange} />
       </ComponentWrapper>
       <ComponentWrapper>
         <Popover placement="bottom" content={Content} trigger="click">
@@ -106,7 +138,12 @@ export const SearchForm = () => {
         </Popover>
       </ComponentWrapper>
       <ComponentWrapper>
-        <Button variant="primary" size="medium" width="100%">
+        <Button
+          variant="primary"
+          size="medium"
+          width="100%"
+          onClick={searchHotels}
+        >
           Find Hotels
         </Button>
       </ComponentWrapper>

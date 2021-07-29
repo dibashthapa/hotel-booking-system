@@ -32,6 +32,7 @@ export const Login = () => {
   });
 
   useEffect(() => {
+    dispatch({ type: "INITIALIZED" });
     if (state.isUserLoggedIn) {
       history.push(
         location.state?.prevLocation ? location.state?.prevLocation : HOME_PAGE

@@ -1,32 +1,14 @@
-import React, { useState, MouseEventHandler } from "react";
+import React from "react";
 import { BorderVariants } from "@hotel-ui/borderVariants";
 import styled, {
   css,
   DefaultTheme,
   FlattenInterpolation,
-  keyframes,
   ThemeProps,
 } from "styled-components";
 import { VariantTypes, outlined } from "@hotel-ui/colorVariants";
-import { ButtonSize, IStyledButton, ButtonType, Ripple } from "./ButtonProps";
+import { ButtonSize, IStyledButton, ButtonType } from "./ButtonProps";
 //https://codesandbox.io/s/j39p7y3kk5?file=/src/index.tsx
-const ANIMATION_MS = 800;
-const CIRCLE_SIZE = 50;
-
-const ripple = keyframes`
-  0% {
-    opacity: 0.3;
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(8);
-  }
-
-  100% {
-    opacity: 0;
-  }
-`;
 interface StyledButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   variant?: VariantTypes;
   size?: ButtonSize;
@@ -95,69 +77,22 @@ const StyledButton = styled.button<IStyledButton>(
   `
 );
 
-const ButtonRipple = styled.div<Ripple>`
-  position: absolute;
-  top: ${(props) => props.y}px;
-  left: ${(props) => props.x}px;
-  height: ${CIRCLE_SIZE}px;
-  width: ${CIRCLE_SIZE}px;
-  background: currentColor;
-  border-radius: 50%;
-  opacity: 0.3;
-  animation-name: ${ripple};
-  animation-duration: ${ANIMATION_MS * 2}ms;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-  pointer-events: none;
-`;
-
 export const Button: React.FC<StyledButtonProps> = ({
   variant = "primary",
   size,
   width,
   children,
-  clickHandler,
   ...props
 }) => {
-  const [ripples, setRippels] = useState<Ripple[]>([]);
-
-  const handleClick: MouseEventHandler<HTMLElement> = (evt) => {
-    //https://github.com/facebook/react/issues/16201
-    const node = evt.target as HTMLElement;
-    const box = node.getBoundingClientRect();
-    setRippels([
-      ...ripples,
-      {
-        x: evt.clientX - box.left - CIRCLE_SIZE / 2,
-        y: evt.clientY - box.top - CIRCLE_SIZE / 2,
-      },
-    ]);
-
-    setTimeout(() => {
-      setRippels(shift(ripples));
-    }, ANIMATION_MS);
-
-    if (clickHandler) clickHandler();
-  };
-  function shift(array: Ripple[]) {
-    const newArray = [...array];
-    newArray.shift();
-    return newArray;
-  }
-
   return (
     <StyledButton
       {...props}
       variant={variant}
       size={size}
       width={width}
-      onClick={handleClick}
       type="submit"
     >
       {children}
-      {ripples.map((ripple: Ripple, i: number) => (
-        <ButtonRipple key={i} x={ripple.x} y={ripple.y} />
-      ))}
     </StyledButton>
   );
 };
