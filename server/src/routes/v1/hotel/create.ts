@@ -16,27 +16,12 @@ router.use('/', authentication, role(RoleCode.AGENT), authorization);
 
 router.post(
   '/create',
-  validator(schema.hotelCreate, ValidationSource.BODY),
+  validator(schema.createHotel, ValidationSource.BODY),
   asyncHandler(async (req: ProtectedRequest, res) => {
     const createdHotel = await HotelRepo.create({
       name: req.body.name,
-      slug: req.body.slug,
-      price: req.body.price,
-      description: req.body.description,
-      guest: req.body.guest,
-      gallery: req.body.gallery,
-      contact: req.body.phone,
-      image: req.body.image,
-      createdBy: req.user,
-      updatedBy: req.user,
-
-      facilities: {
-        wifi: req.body.wifi,
-        parking: req.body.parking,
-        pool: req.body.pool,
-        ac: req.body.ac,
-        extraBed: req.body.extraBed,
-      },
+      location: req.body.location,
+      phone: req.body.phone,
     } as Hotel);
 
     return new SuccessResponse('Hotel Success', {

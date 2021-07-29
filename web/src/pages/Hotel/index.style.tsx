@@ -1,6 +1,8 @@
 import styled from "styled-components";
-export const Container = styled.div`
-  padding: 20px 50px;
+import { Container } from "@hotel-ui/Container";
+export const HotelContainer = styled(Container)`
+  border: ${(p) => p.theme.borders["gray"]};
+  padding: 0px;
 `;
 
 export const ImageGallery = styled.div`

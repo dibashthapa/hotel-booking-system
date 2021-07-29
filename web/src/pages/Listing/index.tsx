@@ -7,9 +7,10 @@ import { AxiosError } from "axios";
 const api = new Api(false);
 export const Listing = () => {
   const { isLoading, error, data, isFetching } = useQuery<any, AxiosError>(
-    "hotels",
-    () => api.get("hotels").then((res) => res.data)
+    "rooms",
+    () => api.get("rooms").then((res) => res.data)
   );
+  console.log(data);
 
   return isLoading || isFetching ? (
     <p>Loading ...</p>

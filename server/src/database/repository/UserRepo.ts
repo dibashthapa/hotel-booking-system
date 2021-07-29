@@ -2,7 +2,7 @@ import User, { UserModel } from '../model/User';
 import { Types } from 'mongoose';
 import KeystoreRepo from './KeystoreRepo';
 import Keystore from '../model/Keystore';
-import Role, { RoleModel } from '../model/Role';
+import Role, { RoleCode, RoleModel } from '../model/Role';
 
 export default class UserRepo {
   // contains critical information of the user
@@ -35,9 +35,7 @@ export default class UserRepo {
     roleCode: string,
   ): Promise<{ user: User; keystore: Keystore }> {
     const now = new Date();
-
-    const role = await RoleModel.findOne({ code: roleCode }).lean<Role>().exec();
-    user.roles = [role?._id];
+    user.role = RoleCode.USER;
     user.createdAt = user.updatedAt = now;
     const createdUser = await UserModel.create(user);
     const keystore = await KeystoreRepo.create(createdUser._id, accessTokenKey, refreshTokenKey);

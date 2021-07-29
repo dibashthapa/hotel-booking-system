@@ -7,7 +7,7 @@ import {
 import { Link } from "react-router-dom";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { LISTING_POSTS_PAGE, PROFILE } from "settings/constant";
+import { LISTING_POSTS_PAGE } from "settings/constant";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
 const responsive = {

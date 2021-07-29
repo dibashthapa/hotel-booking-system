@@ -5,16 +5,16 @@ import Logger from '../../core/Logger';
 
 export default class HotelRepo {
   public static async create(hotel: Hotel): Promise<Hotel> {
-    const now = new Date();
-    hotel.createdAt = now;
-    hotel.updatedAt = now;
+    //const now = new Date();
+    //hotel.createdAt = now;
+    //hotel.updatedAt = now;
     const createdHotel = await HotelModel.create(hotel);
     Logger.debug(createdHotel);
     return createdHotel.toObject();
   }
 
   public static update(hotel: Hotel) {
-    hotel.updatedAt = new Date();
+    //hotel.updatedAt = new Date();
     return HotelModel.updateOne(
       { _id: hotel._id },
       {

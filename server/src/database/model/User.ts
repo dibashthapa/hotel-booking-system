@@ -1,5 +1,5 @@
 import { model, Schema, Document } from 'mongoose';
-import Role from './Role';
+import Role, { RoleCode } from './Role';
 
 export const DOCUMENT_NAME = 'User';
 export const COLLECTION_NAME = 'users';
@@ -10,7 +10,7 @@ export default interface User extends Document {
   password: string;
   decription?: string;
   profilePicUrl?: string;
-  roles?: Role[];
+  role?: RoleCode;
   createdAt?: Date;
   updatedAt?: Date;
 }
@@ -41,13 +41,8 @@ const schema = new Schema(
       type: Schema.Types.String,
       default: 'https://res.cloudinary.com/dibash/image/upload/v1626558916/user_1_srtd9v.png',
     },
-    roles: {
-      type: [
-        {
-          type: Schema.Types.ObjectId,
-          ref: 'Role',
-        },
-      ],
+    role: {
+      type: Schema.Types.String,
       required: true,
       select: true,
     },

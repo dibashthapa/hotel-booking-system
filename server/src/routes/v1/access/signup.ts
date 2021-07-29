@@ -39,7 +39,7 @@ router.post(
 
     const tokens = await createTokens(createdUser, keystore.primaryKey, keystore.secondaryKey);
     new SuccessResponse('Signup Successful', {
-      user: _.pick(createdUser, ['_id', 'name', 'email', 'roles', 'profilePicUrl']),
+      user: _.pick(createdUser, ['_id', 'name', 'email', 'role', 'profilePicUrl']),
       tokens: tokens,
     }).send(res);
   }),
