@@ -37,10 +37,9 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({
   const [children, setChildren] = useState(0);
   const [adults, setAdults] = useState(0);
   const [totalCost, setTotalCost] = useState(0);
-  const date = JSON.parse(localStorage.getItem("dates") as string);
   const [dateState, setDate] = useState({
-    checkinDate: date["checkinDate"],
-    checkoutDate: date["checkOutDate"],
+    checkinDate: "",
+    checkoutDate: "",
   });
 
   const sendMessage = (notificationType: IconType, message: string) => {
@@ -138,13 +137,7 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({
         <div>
           <label>Dates</label>
           <DateWrapper>
-            <DatePicker
-              defaultValues={[
-                moment(date["checkinDate"], "YYYY-MM-DD"),
-                moment(date["checkOutDate"], "YYYY-MM-DD"),
-              ]}
-              onChange={onCalendarChange}
-            />
+            <DatePicker onChange={onCalendarChange} />
           </DateWrapper>
         </div>
         <GuestWrapper>
@@ -159,7 +152,11 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({
         </GuestWrapper>
         <div>
           {totalCost > 0 && <Text>Your total charge is {totalCost}$ </Text>}
-          {children + adults > 0 && <Button onClick={bookNow}>Book Now</Button>}
+          {children + adults > 0 &&
+            dateState["checkoutDate"] &&
+            dateState["checkinDate"] && (
+              <Button onClick={bookNow}>Book Now</Button>
+            )}
         </div>
       </CheckoutContainer>
     </FormWrapper>
