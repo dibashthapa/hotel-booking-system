@@ -1,9 +1,15 @@
 import mongoose from 'mongoose';
 import Logger from '../core/Logger';
-import { db } from '../config';
+import { environment } from '../config';
 
 // Build the connection string
-const dbURI = 'mongodb://localhost:27017/hotel';
+
+let dbURI: string;
+if (environment === 'production') {
+  dbURI = 'mongodb://mongodb_container:27017/hotel';
+} else {
+  dbURI = 'mongodb://localhost:27017/hotel';
+}
 
 const options = {
   useNewUrlParser: true,
