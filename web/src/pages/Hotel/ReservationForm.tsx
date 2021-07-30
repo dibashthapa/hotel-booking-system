@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { DatePicker, Button, Text } from "@hotel-ui";
-import moment from "moment";
 import {
   Quantity,
   PopoverContainer,

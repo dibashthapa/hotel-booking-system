@@ -1,6 +1,5 @@
 import Booking, { BookingModel } from '../model/Booking';
 import { Types } from 'mongoose';
-import Logger from '../../core/Logger';
 import RoomRepo from './RoomRepo';
 import User from '../model/User';
 import Room from '../model/Room';
@@ -9,7 +8,6 @@ export default class BookingRepo {
   public static async create(booking: Booking): Promise<Booking> {
     const createdBooking = await BookingModel.create(booking);
     await RoomRepo.update(createdBooking.room, false);
-    Logger.debug(createdBooking);
     return createdBooking.toObject();
   }
 

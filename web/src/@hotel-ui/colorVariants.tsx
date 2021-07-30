@@ -57,6 +57,7 @@ export type ColorTypes =
   | "red"
   | "redlight"
   | "cardBg";
+
 export const colors: Record<ColorTypes, string> = {
   primary: "#4F46E5",
   secondary: "#637bfe",

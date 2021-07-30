@@ -36,10 +36,6 @@ const schema = new Schema(
       type: Schema.Types.Boolean,
       required: true,
     },
-    bedCount: {
-      type: Schema.Types.Number,
-      required: true,
-    },
     name: {
       type: Schema.Types.String,
       required: true,
@@ -97,6 +93,6 @@ const schema = new Schema(
     },
   },
   { versionKey: false },
-).index({ location: 'text' });
+);
 
 export const RoomModel = model<Room>(DOCUMENT_NAME, schema, COLLECTION_NAME);

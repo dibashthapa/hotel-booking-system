@@ -14,6 +14,7 @@ export default {
       authorization: JoiAuthBearer().required(),
     })
     .unknown(true),
+
   signup: Joi.object().keys({
     name: Joi.string().required().min(3),
     email: Joi.string().required().email(),
