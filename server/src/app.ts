@@ -29,8 +29,8 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
   if (err instanceof ApiError) {
     ApiError.handle(err, res);
   } else {
+    Logger.error(err);
     if (environment === 'development') {
-      Logger.error(err);
       return res.status(500).send(err.message);
     }
     ApiError.handle(new InternalError(), res);
