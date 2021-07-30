@@ -23,7 +23,6 @@ export default interface Room extends Document {
   updatedAt?: Date;
   facilities?: Facilities;
   isAvailable: boolean;
-  bedCount: number;
 }
 
 const schema = new Schema(
@@ -98,5 +97,6 @@ const schema = new Schema(
     },
   },
   { versionKey: false },
-);
+).index({ location: 'text' });
+
 export const RoomModel = model<Room>(DOCUMENT_NAME, schema, COLLECTION_NAME);

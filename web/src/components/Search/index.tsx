@@ -14,7 +14,6 @@ import { Popover } from "antd";
 import { useHistory } from "react-router-dom";
 import { LISTING_POSTS_PAGE } from "settings/constant";
 export const SearchForm = () => {
-  const [room, setRoom] = useState(0);
   const [children, setChildren] = useState(0);
   const [adults, setAdults] = useState(0);
   const [value, setValue] = useState("Kathmandu, Nepal");
@@ -23,12 +22,10 @@ export const SearchForm = () => {
   const searchHotels = () => {
     const date = JSON.parse(localStorage.getItem("dates") as string);
 
-    if (room && value.length > 1 && children && adults && date) {
+    if (value.length > 1 && children && adults && date) {
       localStorage.setItem("guests", JSON.stringify({ children, adults }));
       history.push({
         pathname: LISTING_POSTS_PAGE,
-        search: `room=${room}&location=${value}`,
-        state: { room },
       });
     }
   };
@@ -45,14 +42,6 @@ export const SearchForm = () => {
     setValue(e.target.value);
   };
   const Content = () => {
-    const increaseRoomCount = () => {
-      setRoom(room + 1);
-    };
-
-    const decreaseRoomCount = () => {
-      if (room === 0) return;
-      setRoom(room - 1);
-    };
     const increaseChildrenCount = () => {
       setChildren(children + 1);
     };
@@ -72,18 +61,6 @@ export const SearchForm = () => {
     };
     return (
       <PopoverWrapper>
-        <PopoverContainer>
-          <strong>Room</strong>
-          <Quantity>
-            <button className="decBtn" onClick={decreaseRoomCount}>
-              <AiOutlineMinus />
-            </button>
-            <Text>{room}</Text>
-            <button className="incBtn" onClick={increaseRoomCount}>
-              <AiOutlinePlus />
-            </button>
-          </Quantity>
-        </PopoverContainer>
         <PopoverContainer>
           <strong>Children</strong>
           <Quantity>
@@ -129,12 +106,9 @@ export const SearchForm = () => {
       </ComponentWrapper>
       <ComponentWrapper>
         <Popover placement="bottom" content={Content} trigger="click">
-          <Text display="flex" alignItems="center" marginX="15px">
-            Room {room > 0 && room}
-          </Text>
-          <Text display="flex" alignItems="center">
-            Guests {children + adults > 0 && children + adults}
-          </Text>
+          <div style={{ width: "100%" }}>
+            <Text>Guests {children + adults > 0 && children + adults}</Text>
+          </div>
         </Popover>
       </ComponentWrapper>
       <ComponentWrapper>

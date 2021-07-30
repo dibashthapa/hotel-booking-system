@@ -3,7 +3,7 @@ import schema from './schema';
 import asyncHandler from '../../../helpers/asyncHandler';
 import validator, { ValidationSource } from '../../../helpers/validator';
 import { ProtectedRequest } from '../../../types/app-request';
-import { SuccessResponse } from '../../../core/ApiResponse';
+import { BadRequestResponse, SuccessResponse } from '../../../core/ApiResponse';
 import authentication from '../../../auth/authentication';
 import { RoleCode } from '../../../database/model/Role';
 import authorization from '../../../auth/authorization';
@@ -12,7 +12,7 @@ import BookingRepo from '../../../database/repository/BookingRepo';
 import Booking from '../../../database/model/Booking';
 import RoomRepo from '../../../database/repository/RoomRepo';
 import moment from 'moment';
-import Logger from '../../../core/Logger';
+import Room from '../../../database/model/Room';
 
 const router = express.Router();
 router.use('/', authentication, role(RoleCode.USER), authorization);
@@ -26,15 +26,17 @@ router.post(
     const checkinDate = moment(req.body.checkinDate, 'YYYY-MM-DD');
     const checkoutDate = moment(req.body.checkoutDate, 'YYYY-MM-DD');
     const days = moment.duration(checkoutDate.diff(checkinDate)).asDays();
-    Logger.debug(days);
     const totalCharge = Number(room?.price) * days;
+
+    const foundBooking = await BookingRepo.findByRoomAndUser(room as Room, req.user);
+
+    if (foundBooking) throw new BadRequestResponse('You have already booked this room').send(res);
     const createdBooking = await BookingRepo.create({
       room: room,
       checkinDate: checkinDate.toDate(),
       checkoutDate: checkoutDate.toDate(),
       createdBy: req.user,
       location: req.body.location,
-      roomCount: req.body.roomCount,
       adultCount: req.body.adultCount,
       childrenCount: req.body.childrenCount,
       totalCharge,

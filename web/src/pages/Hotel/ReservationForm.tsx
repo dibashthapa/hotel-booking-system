@@ -34,15 +34,14 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({
   location,
   roomId,
 }) => {
-  const [room, setRoom] = useState(0);
   const [children, setChildren] = useState(0);
   const [adults, setAdults] = useState(0);
   const [totalCost, setTotalCost] = useState(0);
-  const [dateState, setDate] = useState({
-    checkinDate: "",
-    checkoutDate: "",
-  });
   const date = JSON.parse(localStorage.getItem("dates") as string);
+  const [dateState, setDate] = useState({
+    checkinDate: date["checkinDate"],
+    checkoutDate: date["checkOutDate"],
+  });
 
   const sendMessage = (notificationType: IconType, message: string) => {
     notification[notificationType]({
@@ -56,7 +55,6 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({
       checkinDate: dateState["checkinDate"],
       checkoutDate: dateState["checkoutDate"],
       location: location,
-      roomCount: room,
       adultCount: adults,
       childrenCount: children,
       roomId: roomId,
@@ -73,14 +71,6 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({
   };
 
   const Content = () => {
-    const increaseRoomCount = () => {
-      setRoom(room + 1);
-    };
-
-    const decreaseRoomCount = () => {
-      if (room === 0) return;
-      setRoom(room - 1);
-    };
     const increaseChildrenCount = () => {
       setChildren(children + 1);
     };
@@ -100,18 +90,6 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({
     };
     return (
       <PopoverWrapper>
-        <PopoverContainer>
-          <strong>Room</strong>
-          <Quantity>
-            <button className="decBtn" onClick={decreaseRoomCount}>
-              <AiOutlineMinus />
-            </button>
-            <Text>{room}</Text>
-            <button className="incBtn" onClick={increaseRoomCount}>
-              <AiOutlinePlus />
-            </button>
-          </Quantity>
-        </PopoverContainer>
         <PopoverContainer>
           <strong>Children</strong>
           <Quantity>
@@ -172,17 +150,16 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({
         <GuestWrapper>
           <label>Guests</label>
           <Popover placement="bottom" content={Content} trigger="click">
-            <Text display="flex" alignItems="center" marginX="15px">
-              Room {room > 0 && room}
-            </Text>
-            <Text display="flex" alignItems="center">
-              Guests {children + adults > 0 && children + adults}
-            </Text>
+            <span>
+              <Text display="flex" alignItems="center">
+                Guests {children + adults > 0 && children + adults}
+              </Text>
+            </span>
           </Popover>
         </GuestWrapper>
         <div>
           {totalCost > 0 && <Text>Your total charge is {totalCost}$ </Text>}
-          <Button onClick={bookNow}>Book Now</Button>
+          {children + adults > 0 && <Button onClick={bookNow}>Book Now</Button>}
         </div>
       </CheckoutContainer>
     </FormWrapper>

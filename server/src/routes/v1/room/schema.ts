@@ -12,7 +12,6 @@ export default {
     parking: Joi.boolean().optional(),
     pool: Joi.boolean().optional(),
     ac: Joi.boolean().optional(),
-    bedCount: Joi.number().required(),
     isAvailable: Joi.boolean().required(),
   }),
   roomId: Joi.object().keys({

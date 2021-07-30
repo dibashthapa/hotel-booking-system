@@ -3,6 +3,7 @@ import { Types } from 'mongoose';
 import Logger from '../../core/Logger';
 import RoomRepo from './RoomRepo';
 import User from '../model/User';
+import Room from '../model/Room';
 
 export default class BookingRepo {
   public static async create(booking: Booking): Promise<Booking> {
@@ -25,6 +26,10 @@ export default class BookingRepo {
 
   public static findInfoById(id: Types.ObjectId): Promise<Booking | null> {
     return BookingModel.findOne({ _id: id }).lean<Booking>().exec();
+  }
+
+  public static findByRoomAndUser(room: Room, user: User): Promise<Booking | null> {
+    return BookingModel.findOne({ room: room, createdBy: user }).lean<Booking>().exec();
   }
 
   public static findBookings(user: User): Promise<Booking[]> {

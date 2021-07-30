@@ -35,7 +35,6 @@ router.post(
         wifi: req.body.wifi,
         parking: req.body.parking,
       },
-      bedCount: req.body.bedCount,
       isAvailable: req.body.isAvailable,
     } as Room);
 

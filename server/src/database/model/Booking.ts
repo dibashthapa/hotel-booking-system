@@ -10,7 +10,6 @@ export default interface Booking extends Document {
   checkoutDate: Date;
   createdBy: User;
   location: string;
-  roomCount: number;
   adultCount: number;
   totalCharge: number;
   childrenCount: number;
@@ -39,10 +38,6 @@ const schema = new Schema(
     },
     location: {
       type: Schema.Types.String,
-      required: true,
-    },
-    roomCount: {
-      type: Schema.Types.Number,
       required: true,
     },
     adultCount: {

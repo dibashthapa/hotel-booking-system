@@ -28,7 +28,7 @@ export default class RoomRepo {
     return RoomModel.findOne({ _id: id }).populate('hotel').lean<Room>().exec();
   }
 
-  public static findRooms(): Promise<Room[]> {
-    return RoomModel.find({}).populate('hotel').lean<Room>().exec();
+    public static findRooms(): Promise<Room[]> {
+        return RoomModel.find({isAvailable:true}).populate('hotel').lean<Room>().exec();
   }
-}
+

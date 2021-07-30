@@ -6,7 +6,6 @@ export default {
     checkoutDate: Joi.date().required(),
     roomId: JoiObjectId().required(),
     location: Joi.string().required(),
-    roomCount: Joi.number().required(),
     adultCount: Joi.number().required(),
     childrenCount: Joi.number().required(),
   }),
