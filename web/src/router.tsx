@@ -7,12 +7,13 @@ import {
   LISTING_POSTS_PAGE,
   LOGIN_PAGE,
   REGISTRATION_PAGE,
+  MY_BOOKINGS,
 } from "settings/constant";
 import Navbar from "components/Navbar";
 import { Listing } from "pages/Listing";
 import { PrivateRoute } from "components/PrivateRoute";
 import { Hotel } from "pages/Hotel";
-
+import { Bookings } from "pages/Bookings";
 const Router = () => {
   return (
     <BrowserRouter>
@@ -27,6 +28,7 @@ const Router = () => {
           path={`${LISTING_POSTS_PAGE}/id/:id`}
           exact
         />
+        <PrivateRoute component={Bookings} path={MY_BOOKINGS} exact />
       </Switch>
     </BrowserRouter>
   );

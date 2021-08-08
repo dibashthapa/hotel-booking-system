@@ -8,6 +8,7 @@ import {
   REGISTRATION_PAGE,
   LISTING_POSTS_PAGE,
   HOME_PAGE,
+  MY_BOOKINGS,
 } from "settings/constant";
 import { logoutUser, verifyUser } from "auth/actions";
 import { useEffect } from "react";
@@ -21,6 +22,9 @@ const Navbar = () => {
 
   const handlePushRegister = () => {
     history?.push({ pathname: REGISTRATION_PAGE });
+  };
+  const handlePushBooking = () => {
+    history?.push({ pathname: MY_BOOKINGS });
   };
 
   const handlePushHome = () => {
@@ -58,9 +62,8 @@ const Navbar = () => {
 
   const menu = (
     <Menu>
-      <Menu.Item key="4" onClick={handleLogout}>
-        Log Out
-      </Menu.Item>
+      <Menu.Item onClick={handlePushBooking}>My Bookings</Menu.Item>
+      <Menu.Item onClick={handleLogout}>Log Out</Menu.Item>
     </Menu>
   );
 

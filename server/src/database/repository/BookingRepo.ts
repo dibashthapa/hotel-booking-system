@@ -31,6 +31,6 @@ export default class BookingRepo {
   }
 
   public static findBookings(user: User): Promise<Booking[]> {
-    return BookingModel.find({ createdBy: user }).lean<Booking>().exec();
+    return BookingModel.find({ createdBy: user }).populate('room').lean<Booking>().exec();
   }
 }

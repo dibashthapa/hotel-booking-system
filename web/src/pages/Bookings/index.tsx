@@ -5,11 +5,11 @@ import Api from "services/api";
 import { Container } from "@hotel-ui/Container";
 import { Map } from "components/Map";
 import { AxiosError } from "axios";
-const api = new Api(false);
-export const Listing = () => {
+const api = new Api(true);
+export const Bookings = () => {
   const { isLoading, error, data, isFetching } = useQuery<any, AxiosError>(
     "rooms",
-    () => api.get("rooms").then((res) => res.data)
+    () => api.get("bookings").then((res) => res.data)
   );
 
   return isLoading || isFetching ? (
@@ -18,16 +18,15 @@ export const Listing = () => {
     <span>Error : {error?.response?.data.message}</span>
   ) : (
     <Container>
-      <Map />
       <ProductGrid>
         {data?.map((page: any) => (
           <Product
-            hotel={page.name}
-            price={page.price}
-            gallery={page.gallery}
-            location={page.hotel.location}
+            hotel={page.room.name}
+            price={page.room.price}
+            gallery={page.room.gallery}
             key={page._id}
             id={page._id}
+            booking
           />
         ))}
       </ProductGrid>

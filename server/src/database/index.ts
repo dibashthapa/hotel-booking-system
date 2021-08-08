@@ -6,8 +6,7 @@ import { environment } from '../config';
 
 let dbURI: string;
 if (environment === 'production') {
-  dbURI =
-    'mongodb+srv://dibash:88645684@cluster0.71ixj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+  dbURI = 'mongodb://mongodb_container:27017/hotel';
 } else {
   dbURI = 'mongodb://localhost:27017/hotel';
 }

@@ -38,16 +38,18 @@ const responsive = {
 };
 interface ProductProps {
   gallery: string[];
-  location: string;
+  location?: string;
   hotel: string;
   price: string;
   id: string;
+  booking?: boolean;
 }
 export const Product: React.FC<ProductProps> = ({
   gallery,
   location,
   hotel,
   price,
+  booking,
   id,
 }) => {
   return (
@@ -82,10 +84,12 @@ export const Product: React.FC<ProductProps> = ({
         <div className="meta-wrapper">
           <div className="price">{price}$ Per Night</div>
         </div>
-        <TextLink to={`${LISTING_POSTS_PAGE}/id/${id}`}>
-          <HiOutlineExternalLink />
-          View Details
-        </TextLink>
+        {!booking && (
+          <TextLink to={`${LISTING_POSTS_PAGE}/id/${id}`}>
+            <HiOutlineExternalLink />
+            View Details
+          </TextLink>
+        )}
       </ContentWrapper>
     </ProductCard>
   );
