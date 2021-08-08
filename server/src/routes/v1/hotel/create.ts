@@ -20,7 +20,11 @@ router.post(
   asyncHandler(async (req: ProtectedRequest, res) => {
     const createdHotel = await HotelRepo.create({
       name: req.body.name,
-      location: req.body.location,
+      location: {
+        name: req.body.address,
+        lat: req.body.lat,
+        lon: req.body.lon,
+      },
       phone: req.body.phone,
     } as Hotel);
 

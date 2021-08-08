@@ -6,3 +6,4 @@ export const LOGIN_PAGE = "/sign-in";
 export const MY_BOOKINGS = "/bookings";
 export const REGISTRATION_PAGE = "/sign-up";
 export const CHANGE_PASSWORD_PAGE = "/change-password";
+export const NOT_FOUND = "/404";

@@ -1,0 +1,20 @@
+{"_id":{"$oid":"6102c11cf86889c8eb93ff56"},"name":"Hotel Annapurna ","location":{"lat":"28.208694696959885", "lon":"83.95752623675683", "name":"Pokhara, Nepal"},"phone":"9800000000"}
+{"_id":{"$oid":"6102d47cff6f1807d326beff"},"name":"Hotel Machhapuchre","location":{
+    "lat":"28.212117169106914" , "lon":"83.95697906604312" , "name":"Kathmandu, Nepal"
+},"phone":"9800000000"}
+{"_id":{"$oid":"6102d491ff6f1807d326bf00"},"name":"Hotel Mystic Mountain","location":{
+       "lat":"27.7525473431807" , "lon":"85.29117916782384" , "name":"Kathmandu, Nepal"
+ 
+},"phone":"9800000000"}
+{"_id":{"$oid":"6102d4a5ff6f1807d326bf01"},"name":"Hotel The Coast","location":{
+       "lat":"27.725807084757907" , "lon":"85.35572384509044" , "name":"Kathmandu, Nepal"
+},"phone":"9800000000"}
+{"_id":{"$oid":"6102d4baff6f1807d326bf02"},"name":"Mountain Gloary Forest Resort","location":{
+       "lat":"27.729991904545322" , "lon":"85.39781026057099" , "name":"Kathmandu, Nepal"
+},"phone":"9800000000"}
+{"_id":{"$oid":"6102d4e6ff6f1807d326bf03"},"name":"Everest Hotel","location":{
+       "lat":"27.780659227459342" , "lon":"85.353143382965" , "name":"Kathmandu, Nepal"
+},"phone":"9800000000"}
+{"_id":{"$oid":"6102d500ff6f1807d326bf04"},"name":"Durbar, Hotel","location":{
+       "lat":"27.718021712513377" , "lon":"85.31106863206337" , "name":"Kathmandu, Nepal"
+},"phone":"9800000000"}

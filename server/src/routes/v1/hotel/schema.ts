@@ -18,7 +18,9 @@ export default {
   }),
   createHotel: Joi.object().keys({
     name: Joi.string().required(),
-    location: Joi.string().required(),
+    lat: Joi.string().required(),
+    lon: Joi.string().required(),
+    address: Joi.string().required(),
     phone: Joi.string().required(),
   }),
   hotelId: Joi.object().keys({

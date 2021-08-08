@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Moment } from "moment";
+import moment, { Moment } from "moment";
 import {
   ComponentWrapper,
   FormWrapper,
@@ -14,15 +14,13 @@ import { Popover } from "antd";
 import { useHistory } from "react-router-dom";
 import { LISTING_POSTS_PAGE } from "settings/constant";
 export const SearchForm = () => {
-  const [children, setChildren] = useState(0);
-  const [adults, setAdults] = useState(0);
+  const [children, setChildren] = useState(4);
+  const [adults, setAdults] = useState(2);
   const [value, setValue] = useState("Kathmandu, Nepal");
   const history = useHistory();
 
   const searchHotels = () => {
-    const date = JSON.parse(localStorage.getItem("dates") as string);
-
-    if (value.length > 1 && children && adults && date) {
+    if (value.length > 1 && children && adults) {
       localStorage.setItem("guests", JSON.stringify({ children, adults }));
       history.push({
         pathname: LISTING_POSTS_PAGE,
@@ -102,7 +100,10 @@ export const SearchForm = () => {
         />
       </ComponentWrapper>
       <ComponentWrapper>
-        <DatePicker onChange={onCalendarChange} />
+        <DatePicker
+          onChange={onCalendarChange}
+          defaultValues={[moment(), moment("2021-08-21", "YYYY-MM-DD")]}
+        />
       </ComponentWrapper>
       <ComponentWrapper>
         <Popover placement="bottom" content={Content} trigger="click">

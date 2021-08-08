@@ -20,6 +20,7 @@ const reveal = keyframes`
 export const TextLink = styled(Link)`
   color: ${(p) => p.theme.colors.primary};
   display: none;
+  font-size: 13px;
 `;
 export const ProductCard = styled.div`
   animation-fill-mode: both;
@@ -79,6 +80,9 @@ export const ProductCard = styled.div`
 
     a {
       display: block;
+    }
+    .meta-wrapper {
+      display: none;
     }
   }
 `;

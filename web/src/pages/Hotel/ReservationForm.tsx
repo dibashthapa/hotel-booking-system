@@ -19,7 +19,7 @@ import {
 import { Popover, notification } from "antd";
 import { IconType } from "antd/lib/notification";
 import Api from "services/api";
-import { Moment } from "moment";
+import moment, { Moment } from "moment";
 
 interface ReservationFormProps {
   price: string;
@@ -33,12 +33,12 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({
   location,
   roomId,
 }) => {
-  const [children, setChildren] = useState(0);
-  const [adults, setAdults] = useState(0);
+  const [children, setChildren] = useState(4);
+  const [adults, setAdults] = useState(2);
   const [totalCost, setTotalCost] = useState(0);
   const [dateState, setDate] = useState({
-    checkinDate: "",
-    checkoutDate: "",
+    checkinDate: moment().format("YYYY-MM-DD"),
+    checkoutDate: "2021-08-21",
   });
 
   const sendMessage = (notificationType: IconType, message: string) => {
@@ -60,7 +60,6 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({
 
     try {
       const res = await api.post("booking/create", body);
-      console.log(res);
       sendMessage("success", res?.message);
       setTotalCost(res?.data?.booking?.totalCharge);
     } catch (err) {
@@ -136,7 +135,10 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({
         <div>
           <label>Dates</label>
           <DateWrapper>
-            <DatePicker onChange={onCalendarChange} />
+            <DatePicker
+              onChange={onCalendarChange}
+              defaultValues={[moment(), moment("2021-08-21", "YYYY-MM-DD")]}
+            />
           </DateWrapper>
         </div>
         <GuestWrapper>
@@ -151,11 +153,7 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({
         </GuestWrapper>
         <div>
           {totalCost > 0 && <Text>Your total charge is {totalCost}$ </Text>}
-          {children + adults > 0 &&
-            dateState["checkoutDate"] &&
-            dateState["checkinDate"] && (
-              <Button onClick={bookNow}>Book Now</Button>
-            )}
+          <Button onClick={bookNow}>Book Now</Button>
         </div>
       </CheckoutContainer>
     </FormWrapper>

@@ -36,7 +36,7 @@ export const Hotel = () => {
         <ReservationForm
           price={data?.price}
           roomId={data?._id}
-          location={data?.hotel.location}
+          location={data?.hotel.location.name}
         />
       </Flex>
     </HotelContainer>

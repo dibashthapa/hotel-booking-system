@@ -3,9 +3,15 @@ import { model, Schema, Document } from 'mongoose';
 export const DOCUMENT_NAME = 'Hotel';
 export const COLLECTION_NAME = 'hotels';
 
+interface Location {
+  lat: string;
+  lon: string;
+  name: string;
+}
+
 export default interface Hotel extends Document {
   name: string;
-  location: string;
+  location: Location;
   phone: string;
 }
 
@@ -16,8 +22,18 @@ const schema = new Schema(
       required: true,
     },
     location: {
-      type: Schema.Types.String,
-      required: true,
+      lat: {
+        type: Schema.Types.String,
+        required: true,
+      },
+      lon: {
+        type: Schema.Types.String,
+        required: true,
+      },
+      name: {
+        type: Schema.Types.String,
+        required: true,
+      },
     },
     phone: {
       type: Schema.Types.String,
