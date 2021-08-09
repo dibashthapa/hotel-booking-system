@@ -19,6 +19,7 @@ export const Bookings = () => {
     if (error?.response?.status === 404) {
       history.push(NOT_FOUND);
     }
+    console.log(data);
   }, [isLoading, isFetching]);
   return (
     <Container>
@@ -30,12 +31,13 @@ export const Bookings = () => {
         ) : (
           data?.map((page: any) => (
             <Product
-              hotel={page.name}
-              price={page.price}
-              gallery={page.gallery}
-              location={page.hotel.location}
+              hotel={page.room.name}
+              price={page.room.price}
+              gallery={page.room.gallery}
+              location={page.location}
               key={page._id}
               id={page._id}
+              booking
             />
           ))
         )}
