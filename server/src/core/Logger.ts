@@ -13,7 +13,7 @@ if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir);
 }
 
-const logLevel = environment === 'development' ? 'debug' : 'warn';
+const logLevel = 'debug';
 
 const options = {
   file: {
